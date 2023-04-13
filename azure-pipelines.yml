@@ -58,7 +58,7 @@ stages:
     pool:
       vmImage: $(vmImageName)
     # environment: 'JeffersonMetaageReactUI01.default'
-    environment: 'evn0e.default'
+    environment: 'evn0e2.default'
     strategy:
       runOnce:
         deploy:
