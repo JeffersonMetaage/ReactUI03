@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: jeffersonmetaagereactuithree 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jeffersonmetaagereactuithree
+  template:
+    metadata:
+      labels:
+        app: jeffersonmetaagereactuithree 
+    spec:
+      containers:
+        - name: jeffersonmetaagereactuithree 
+          image: jacrpoor0412e.azurecr.io/jeffersonmetaagereactuithree
+          ports:
+          - containerPort: 3000
