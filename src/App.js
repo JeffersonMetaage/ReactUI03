@@ -39,7 +39,7 @@ function App() {
         
         <p>Edit <code>src/App.js</code> and save to reload.</p>
         <p style={{color:'red'}}>From Backend Message : {msg}</p>
-        <p style={{color:'red'}}>CI/CD ReactUI03</p>
+        <p style={{color:'red'}}>CI/CD ReactUI03-Test02</p>
         {/* <p>{ JSON.stringify(msg)}</p> */}
 
         <a
